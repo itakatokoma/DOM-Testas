@@ -1,0 +1,64 @@
+body{
+    background: rgb(255,147,186);
+    background: linear-gradient(336deg, rgba(255,147,186,1) 40%, rgba(22,196,224,1) 55%, rgba(103,229,255,1) 68%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0%;
+    color: rgb(80, 80, 80);
+    height: 100vh;
+    width: 100vh;
+}
+
+#productTable{
+    padding-top: 15px;
+}
+
+.inputas{
+  border-radius: 5px;
+  background-color: rgb(219, 219, 219);
+  width: 300px;
+  margin-top: 10px;
+}
+
+button{
+   border-radius: 5px;
+   background-color: rgb(80, 82, 95);
+   border-color: black;
+   border-width: 3px;
+   color: white;
+   padding: 7px;
+}
+
+form{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+.inline-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+#productForm {
+    flex: 1; 
+}
+
+#findingitemsbycode {
+    flex: 1; 
+    border-collapse: collapse;
+}
+
+
+#findingitemsbycode th, #productTable th, #findingitemsbycode td, #productTable td {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid rgb(58, 58, 58);
+    color: black;
+}
+
+#FindButton{
+    margin-left:  70px;
+}
